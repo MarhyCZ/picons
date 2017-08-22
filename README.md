@@ -71,7 +71,7 @@ Vektorový formát - coming soon
 
 ## Kodi CZ&SK Doplňky
 
-Dalším hojně používanou částí v našem prostředí jsou skvělé doplňky ze společného českého a slovenského repozitáře "[Kodi CZ&SK Doplňky](https://kodi-czsk.github.io/repository)". Napadlo mě redesignovat ikony všech doplňků najednou, aby měli koherentní design a návrhy poslat na jednotlivé github stránky doplňků.
+Další hojně používanou částí v našem prostředí jsou skvělé doplňky ze společného českého a slovenského repozitáře "[Kodi CZ&SK Doplňky](https://kodi-czsk.github.io/repository)". Napadlo mě redesignovat ikony všech doplňků najednou, aby měli koherentní design a návrhy poslat na jednotlivé github stránky doplňků.
 
 Návrhy můžete prohlížet v [této složce](https://github.com/MarhyCZ/marhycz.github.io/tree/master/kodi-czsk-icons/navrhy)
 
