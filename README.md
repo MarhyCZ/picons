@@ -1,6 +1,6 @@
 ## Kodi Picons & Icons
 
-Pokud se v multimediálním centru zrovna nesleduje obsah, sledují se ikony, typografie, celý skin. Proto jsem se rozhodl vytvořit vlastní balíček piconů (loga televizních stanic) a ikon doplňků z českého repozitáře "[Kodi CZ & SK Repository](https://kodi-czsk.github.io/repository)"
+Pokud se v multimediálním centru zrovna nesleduje obsah, sledují se ikony, typografie, celý skin. Proto jsem se rozhodl vytvořit vlastní balíček piconů (loga televizních stanic) a ikon doplňků z českého repozitáře "[Kodi CZ&SK Doplňky](https://kodi-czsk.github.io/repository)"
 
 
 ## Kodi CZ Picons
@@ -38,13 +38,13 @@ Balíček ikon je je připravený pro použití v Tvheadendu a ikony jsou pojmen
 ### Náhledy
 
 #### Náhled TV
-![Image](http://marhycz.github.io/picons/images/nahled-tv.png)
+![Náhled TV](http://marhycz.github.io/picons/images/nahled-tv.png)
 
 #### Náhled TV Regionální
-![Image](http://marhycz.github.io/picons/images/nahled-tvregion.png)
+![Náhled TV Regionální](http://marhycz.github.io/picons/images/nahled-tvregion.png)
 
 #### Náhled Rádio stanice
-![Image](http://marhycz.github.io/picons/images/nahled-radio.png)
+![Náhled Rádio stanice](http://marhycz.github.io/picons/images/nahled-radio.png)
 
 <hr>
 
@@ -69,8 +69,10 @@ Vektorový formát - coming soon
 
 <hr>
 
-## Kodi CZ@SK Doplňky
+## Kodi CZ&SK Doplňky
 
-Dalším hojně používanou částí v našem prostředí jsou skvělé doplňky ze společného českého a slovenského repozitáře "[Kodi CZ & SK Repository](https://kodi-czsk.github.io/repository)". Napadlo mě redesignovat ikony všech doplňků najednou, aby měli koherentní design a návrhy poslat na jednotlivé github stránky doplňků.
+Dalším hojně používanou částí v našem prostředí jsou skvělé doplňky ze společného českého a slovenského repozitáře "[Kodi CZ&SK Doplňky](https://kodi-czsk.github.io/repository)". Napadlo mě redesignovat ikony všech doplňků najednou, aby měli koherentní design a návrhy poslat na jednotlivé github stránky doplňků.
 
-Návrhy můžete prohlížet v [této složce](https://github.com/MarhyCZ/marhycz.github.io/tree/master/kodi-czsk-icons)
+Návrhy můžete prohlížet v [této složce](https://github.com/MarhyCZ/marhycz.github.io/tree/master/kodi-czsk-icons/navrhy)
+
+![Náhled návrhů](http://marhycz.github.io/kodi-czsk-icons/czsknahled.png)
