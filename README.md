@@ -1,6 +1,5 @@
 ---
 title: Marhy's Picons
-layout: post
 ---
 
 ## Kodi Picons & Icons
