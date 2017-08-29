@@ -1,4 +1,4 @@
-<a href="#picony">Přeskočte na CZ popis</a>
+<a href="#cz---marhyho-picony--ikony">Přeskočte na CZ popis</a>
 
 ## Introduction to Marhy's Picons
 At home I am using several clients for TV watching (Kodi, Tvheadend clients on iOS, UWP on Windows 10) and most picon packs that are available on the internet are either transparent, which means some of them look fine on dark backgrounds, but are awful on light backgrounds and vice versa. The ones that do have a background look either outdated by my taste (lots of old gradients, unnecessary effects like glass reflections, too much skeuomorphism) or if they have for example a solid color background, some of the picons aren't visible, because their logo has the same primary color.
@@ -8,7 +8,7 @@ So I've decided to create my own picon pack, that would look nice in my eyes and
 
 The disadvantage against the most other picon packs is, that I am nowhere near close to the amount of channel logos they provide. So in the meantime you can use in junction with my picons this excellent repository of picons on https://github.com/picons/picons-source
 
-#### TL;DR "It's modern, flat, rectangular picon pack with colorful backgrounds"
+#### TL;DR: " It's modern, flat, rectangular picon pack with colorful backgrounds "
 
 ### Small taste
 
