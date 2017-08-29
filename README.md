@@ -1,3 +1,8 @@
+---
+title: Marhy's Picons
+layout: post
+---
+
 ## Kodi Picons & Icons
 
 Pokud se v multimediálním centru zrovna nesleduje obsah, sledují se ikony, typografie, celý skin. Proto jsem se rozhodl vytvořit vlastní balíček piconů (loga televizních stanic) a ikon doplňků z českého repozitáře "[Kodi CZ&SK Doplňky](https://kodi-czsk.github.io/repository)"
