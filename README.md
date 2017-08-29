@@ -46,7 +46,7 @@ You can download Marhy's picons pack in 2 versions. Either 512x512px suitable fo
 
 [@1024px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/1024) (.zip)
 
-You can browse the picons here [zde](https://github.com/MarhyCZ/picons/tree/master/1024)
+You can browse the picons [here](https://github.com/MarhyCZ/picons/tree/master/1024)
 
 
 #### URL for Tvheadend (Channel icon path):
