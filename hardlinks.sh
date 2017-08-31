@@ -109,10 +109,25 @@ ln arte.png artehd.png
 
 ln daserste.png daserstehd.png
 ln one.png onehd.png
+ln tagesschau24.png tagesschau24hd.png
 
 ln zdf.png zdfhd.png
 ln zdfinfo.png zdfinfohd.png
 ln zdfneo.png zdfneohd.png
 
-ln nitro.png rtlnitrohd.png
+ln rtl.png rtlhd.png
 ln rtl2.png rtliihd.png
+ln nitro.png rtlnitrohd.png
+ln superrtl.png superrtlhd.png
+ln rtlcrime.png rtlcrimehd.png
+ln rtlpassion.png rtlpassionhd.png
+ln vox.png voxhd.png
+
+
+ln sat1.png sat1hd.png
+ln pro7maxx.png pro7maxxhd.png
+ln pro7maxxaustria.png pro7maxxaustriahd.png
+ln sixx.png sixxhd.png
+ln sixxaustria.png sixxaustriahd.png
+ln kabeleins.png kabeleinshd.png
+ln prosieben.png prosiebenhd.png
