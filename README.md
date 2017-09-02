@@ -3,20 +3,24 @@
 ## Introduction to Marhy's Picons
 At home I am using several clients for TV watching (Kodi, Tvheadend clients on iOS, UWP on Windows 10) and most picon packs that are available on the internet are either transparent, which means some of them look fine on dark backgrounds, but are awful on light backgrounds and vice versa. The ones that do have a background look either outdated by my taste (lots of old gradients, unnecessary effects like glass reflections, too much skeuomorphism) or if they have for example a solid color background, some of the picons aren't visible, because their logo has the same primary color.
 
-So I've decided to create my own picon pack, that would look nice in my eyes and on a broad range of end clients. I create every picon manually. Most of them is about applying primary color or gradient of the logo to the background of the picon and making the logo itself white. Achieving modern, sleek look, unique, distinctive backgrounds, but keeping familiar look to the original logos. I am trying to have every picon in vector format for future scaling, I will upload the source files in .ai after a while.
+So I've decided to create my own picon pack, that would look nice in my eyes and on a broad range of end clients. I create every picon manually. Most of them is about applying primary color or gradient of the logo to the background of the picon and making the logo itself white. Achieving modern, sleek look, unique, distinctive backgrounds, but keeping familiar look to the original logos. I am trying to have every picon in vector format for future scaling, I will upload the source files in .ai and .svg after a while.
 
 
-The disadvantage against the most other picon packs is, that I am nowhere near close to the amount of channel logos they provide. So in the meantime you can use in junction with my picons this excellent repository of picons on https://github.com/picons/picons-source
+The disadvantage against the most other picon packs is, that I am nowhere near close to the amount of channel logos they provide. But if you like it, in the meantime you can use in junction with my picons this excellent repository of picons on https://github.com/picons/picons-source 
+And of course, some might not like, that I am basically altering the logos (by making them white and applying their color to background).
 
 #### TL;DR: " It's modern, flat, rectangular picon pack with colorful backgrounds "
 
 ### Small taste
 
-#### TV
-![Náhled TV](http://marhycz.github.io/picons/docs/images/nahled-tv.png)
+#### Czech TV
+![Thumbnail for Czech TV](http://marhycz.github.io/picons/docs/images/thumbnail-cz.png)
 
-#### Radio
-![Náhled Rádio stanice](http://marhycz.github.io/picons/docs/images/nahled-radio.png)
+#### Germany TV
+![Thumbnail for Germany TV](http://marhycz.github.io/picons/docs/images/thumbnail-de.png)
+
+#### International TV
+![Thumbnail for International TV](http://marhycz.github.io/picons/docs/images/thumbnail-international.png)
 
 ### Usage in Tvheadend
 
