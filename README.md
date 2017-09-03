@@ -44,13 +44,13 @@ This is an example of how to use Marhy's Picons package in Tvheadend
 
 ### Downloads
 
-You can download Marhy's picons pack in 2 versions. Either 512x512px suitable for 1080p TVs or 1024x1024px for 4K TVs and retina displays. I am also preparing source files in vector format, so you can create your own flavours.
+You can download Marhy's picons pack in 2 versions. Either 640x640px suitable for 1080p TVs or 1080x1080px for 4K TVs and retina displays. I am also preparing source files in vector format, so you can create your own flavours.
  
-[@512px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/512) (.zip)
+[@640px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/640) (.zip)
 
-[@1024px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/1024) (.zip)
+[@1080px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/1080) (.zip)
 
-You can browse the picons [here](https://github.com/MarhyCZ/picons/tree/master/1024)
+You can browse the picons [here](https://github.com/MarhyCZ/picons/tree/master/1080)
 
 
 #### URL for Tvheadend (Channel icon path):
@@ -59,10 +59,10 @@ You don't have to download the picons package! Just point Tvheadend to these URL
 
 ```markdown
 
-@512px - https://marhycz.github.io/picons/512/%C.png
-@1024px - https://marhycz.github.io/picons/1024/%C.png
+@640px - https://marhycz.github.io/picons/640/%C.png
+@1080px - https://marhycz.github.io/picons/1080/%C.png
 
-(např. https://marhycz.github.io/picons/512/ct1.png)
+(e.g. https://marhycz.github.io/picons/640/ct1.png)
 ```
 
 <hr>
@@ -78,9 +78,9 @@ Nějakou chvíli jsem si dělal svůj vlastní balíček TV ikon jak do Kodi, ta
 Pro mě to vypadá hezky jak na výchozím novém Kodi skinu, tak třeba i v TvhClientu na iOS.
 
 Stáhnout si můžete jak soubor .ai, kde jsou téměř veškerá loga vektorová, můžete si je upravit dle své libosti a vyexportovat do jakéhokoliv rozlišení chcete. 
-Anebo tu mám už hotový balíček s rozlišením 512px, což se mi ukázalo jako ideál pro Kodi do většiny skinů
+Anebo tu mám už hotový balíček s rozlišením 640px, což se mi ukázalo jako ideál pro Kodi do většiny skinů
 
-Pro 4K panely mám vyexportovaný balíček v @2x rozlišení, tedy 1024px. Pro uživatele 4K televizoru s 1080p vstupem (např. malinou) je toto zbytečné.
+Pro 4K panely mám vyexportovaný balíček v @2x rozlišení, tedy 1080px. Pro uživatele 4K televizoru s 1080p vstupem (např. malinou) je toto zbytečné.
 
 Balíček si můžete stáhnout v příloze do vašeho vlastního serveru, případně hostuji zde na GitHubu identickou kopii.
 
@@ -106,11 +106,11 @@ Balíček ikon je je připravený pro použití v Tvheadendu a ikony jsou pojmen
 
 ### Ke stažení
  
-[@512px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/512) (.zip)
+[@640px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/640) (.zip)
 
-[@1024px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/1024) (.zip)
+[@1080px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/1080) (.zip)
 
-A Složku můžete procházet [zde](https://github.com/MarhyCZ/picons/tree/master/1024)
+A Složku můžete procházet [zde](https://github.com/MarhyCZ/picons/tree/master/1080)
 
 Vektorový formát - coming soon
 
@@ -118,10 +118,10 @@ Vektorový formát - coming soon
 
 ```markdown
 
-@512px - https://marhycz.github.io/picons/512/%C.png
-@1024px - https://marhycz.github.io/picons/1024/%C.png
+@640px - https://marhycz.github.io/picons/640/%C.png
+@1080px - https://marhycz.github.io/picons/1080/%C.png
 
-(např. https://marhycz.github.io/picons/512/hbohd.png)
+(např. https://marhycz.github.io/picons/640/hbohd.png)
 ```
 
 <hr>
