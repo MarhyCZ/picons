@@ -56,6 +56,7 @@ ln eentertainment.png eentertainmentcz.png
 ln boomerang.png boomerangcz.png
 ln brazzerstv.png brazzerstvcz.png
 ln foodnetwork.png foodnetworkhdcz.png
+ln fineliving.png finelivinghdcz.png
 ln hustlertv.png hustlertvcz.png
 ln jimjam.png jimjamcz.png
 ln mtv.png mtveuropecz.png
