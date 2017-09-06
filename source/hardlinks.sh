@@ -107,6 +107,8 @@ ln viasathistory.png viasathistoryhd.png
 
 #Germany Channels
 ln arte.png artehd.png
+ln 3sat.png 3sathd.png
+ln kika.png kikahd.png
 
 ln daserste.png daserstehd.png
 ln one.png onehd.png
@@ -116,6 +118,7 @@ ln zdf.png zdfhd.png
 ln zdfinfo.png zdfinfohd.png
 ln zdfneo.png zdfneohd.png
 
+ln rtl.png rtltelevision.png
 ln rtl.png rtlhd.png
 ln rtl2.png rtliihd.png
 ln nitro.png rtlnitrohd.png
@@ -132,3 +135,6 @@ ln sixx.png sixxhd.png
 ln sixxaustria.png sixxaustriahd.png
 ln kabeleins.png kabeleinshd.png
 ln prosieben.png prosiebenhd.png
+
+ln anixe.png anixehd.png
+ln n24.png n24hd.png
