@@ -34,7 +34,7 @@ This is an example of how to use Marhy's Picons package in Tvheadend
 - Set channel icon scheme to "Service name picons" and save changes
 
 - Go to Configuration -> Channel/EPG. List all channels (right corner -> Show All)
-- Press CTRL+A to select all channels and press "Reset icon button". Tvheadend will generate new picon paths for every channel by our new settings.
+- Press CTRL+A to select all channels and press "Reset icon button" and Save changes. Tvheadend will now generate new picon paths for every channel by our new settings.
 
 - Save changes and you're done!
 
@@ -97,8 +97,9 @@ Balíček ikon je je připravený pro použití v Tvheadendu a ikony jsou pojmen
 - Channel icon scheme nastavit na Service name picons a uložte změny
 
 - Jděte do Configuration -> Channel/EPG. Zde si zobrazte všechny kanály (vpravo dole Show All)
-- Stiskem CTRL+A všechny kanály označte a stiskněte Reset icon. Tím se pro každý kanál nově vygeneruje cesta k piconám podle nového nastavení.
-- Změny uložte a hotovo.
+- Stiskem CTRL+A všechny kanály označte a stiskněte Reset icon.
+- Změny uložte a tím se pro každý kanál nově vygeneruje cesta k piconám podle nového nastavení.
+- Hotovo.
 
 <img src="http://marhycz.github.io/picons/docs/images/tvheadendconf.png" width="384"><img src="http://marhycz.github.io/picons/docs/images/tvheadendconf2.png" height="378">
 
