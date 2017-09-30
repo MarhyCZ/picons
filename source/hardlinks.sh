@@ -138,3 +138,12 @@ ln prosieben.png prosiebenhd.png
 
 ln anixe.png anixehd.png
 ln n24.png n24hd.png
+
+ln srfernsehen.png srfernsehenhd.png
+ln br.png brfernsehennordhd.png
+ln rbb.png rbbberlinhd.png
+ln hrfernsehen.png hrfernsehenhd.png
+ln mdr.png mdrsachsenhd.png
+ln ndr.png ndrfshhhd.png
+ln swr.png swrbwhd.png
+ln wdr.png wdrhdkln.png
