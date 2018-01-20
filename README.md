@@ -121,8 +121,16 @@ Vektorový formát - coming soon
 
 @640px - https://marhycz.github.io/picons/640/%C.png
 @1080px - https://marhycz.github.io/picons/1080/%C.png
+-ikony nemusíte stahovat, takto se načtou z GitHubu
 
 (např. https://marhycz.github.io/picons/640/hbohd.png)
+```
+
+#### Příklad použití v M3U playlistu:
+
+```markdown
+#EXTINF:-1 tvg-logo="https://marhycz.github.io/picons/1080/hbo.png", HBO HD
+-případně lze ikony stáhnout a použít lokální cestu
 ```
 
 <hr>
