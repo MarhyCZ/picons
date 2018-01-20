@@ -34,6 +34,7 @@ ln primaplus.png primaplushd.png
 ln primaplus1.png primaplus1hd.png
 ln primazoom.png primazoomhd.png
 ln regionalnitelevize.png regionalnitelevizecz.png
+ln seznamcz.png seznamczhd.png
 ln stv1.png stv1hd.png
 ln stv2.png stv2hd.png
 ln ta3.png ta3hd.png
