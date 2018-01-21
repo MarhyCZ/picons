@@ -18,6 +18,7 @@ ln jojfamily.png jojfamilyhd.png
 ln jojplus.png jojplushd.png
 ln kinobarrandov.png kinobarrandovhd.png
 ln markiza.png markizahd.png
+ln markizaplus1.png markizaplus1hd.png
 ln mnam.png mnamtv.png
 ln mnau.png mnautv.png
 ln nova.png novahd.png
