@@ -108,7 +108,7 @@ ln viasatexplore.png viasatexplorehd.png
 ln viasatexplore.png viasatexplorespice.png
 ln viasathistory.png viasathistoryhd.png
 ln epicdrama.png epicdramahd.png
-
+ln skynews.png skynewsintl.png
 
 #Germany Channels
 ln arte.png artehd.png
