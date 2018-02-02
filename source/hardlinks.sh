@@ -111,6 +111,8 @@ ln epicdrama.png epicdramahd.png
 
 ln skynews.png skynewsintl.png
 ln skysportsnews.png skysportnewshd.png
+ln skyatlantic.png skyatlantichd.png
+ln skycinema.png skycinemahd.png
 
 #Germany Channels
 ln arte.png artehd.png
