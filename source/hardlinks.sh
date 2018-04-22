@@ -9,6 +9,7 @@ ln ct1.png ct1hd.png
 ln ct2.png ct2hd.png
 ln ct24.png ct24hd.png
 ln ctd_ctart.png ctdarthd.png
+ln ctd_ctart.png ctdart.png
 ln ctsport.png ctsporthd.png
 ln dajto.png dajtohd.png
 ln doma.png domahd.png
@@ -27,6 +28,7 @@ ln novaaction.png novaactionhd.png
 ln novacinema.png novacinemahd.png
 ln novasport1.png novasport1hd.png
 ln novasport2.png novasport2hd.png
+ln ocko.png ockotv.png
 ln prima.png primahd.png
 ln primacool.png primacoolhd.png
 ln primalove.png primalovehd.png
@@ -36,6 +38,7 @@ ln primaplus1.png primaplus1hd.png
 ln primazoom.png primazoomhd.png
 ln regionalnitelevize.png regionalnitelevizecz.png
 ln seznamcz.png seznamczhd.png
+ln seznamcz.png seznamtv.png
 ln stv1.png stv1hd.png
 ln stv2.png stv2hd.png
 ln ta3.png ta3hd.png
