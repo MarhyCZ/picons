@@ -23,6 +23,7 @@ ln markizaplus1.png markizaplus1hd.png
 ln mnam.png mnamtv.png
 ln mnau.png mnautv.png
 ln nova.png novahd.png
+ln novaplus1.png novaplus1hd.png
 ln nova2.png nova2hd.png
 ln novaaction.png novaactionhd.png
 ln novacinema.png novacinemahd.png
