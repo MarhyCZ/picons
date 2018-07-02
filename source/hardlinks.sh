@@ -159,3 +159,8 @@ ln mdr.png mdrsachsenhd.png
 ln ndr.png ndrfshhhd.png
 ln swr.png swrbwhd.png
 ln wdr.png wdrhdkln.png
+
+
+#Poland channels
+ln tvp1.png tvp1hd.png
+ln tvp2.png tvp2hd.png
