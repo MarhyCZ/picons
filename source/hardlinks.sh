@@ -165,3 +165,4 @@ ln wdr.png wdrhdkln.png
 #Poland channels
 ln tvp1.png tvp1hd.png
 ln tvp2.png tvp2hd.png
+ln tvn.png tvnhd.png
