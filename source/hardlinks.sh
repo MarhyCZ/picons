@@ -167,3 +167,4 @@ ln tvp1.png tvp1hd.png
 ln tvp2.png tvp2hd.png
 ln tvn.png tvnhd.png
 ln tv4.png tv4hd.png
+ln polotv.png polotvhd.png
