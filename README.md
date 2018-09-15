@@ -65,6 +65,8 @@ You don't have to download the picons package! Just point Tvheadend to these URL
 (e.g. https://marhycz.github.io/picons/640/ct1.png)
 ```
 
+And if you like my picons, you can throw me some coins for a coffee :-)
+<a href="https://paypal.me/marhycz"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" /></a>
 <hr>
 
 ## CZ - Marhyho Picony & Ikony
@@ -133,6 +135,7 @@ Vektorový formát - coming soon
 -případně lze ikony stáhnout a použít lokální cestu
 ```
 
+A pokud se vám mé ikonky líbí, můžete mi přispět na kafe :-) <a href="https://paypal.me/marhycz"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" /></a>
 <hr>
 
 ## Kodi CZ&SK Doplňky
