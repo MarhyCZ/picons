@@ -9,6 +9,13 @@ ln ct1.png ct1hd.png
 ln ct2.png ct2hd.png
 ln ct24.png ct24hd.png
 ln ctd_ctart.png ctdarthd.png
+
+ln ct1.png ct1hdt2.png
+ln ct2.png ct2hdt2.png
+ln ct24.png ct24hdt2.png
+ln ctd_ctart.png ctdarthdt2.png
+ln ctsport.png ctsporthdt2.png
+
 ln ctd_ctart.png ctdart.png
 ln ctsport.png ctsporthd.png
 ln dajto.png dajtohd.png
