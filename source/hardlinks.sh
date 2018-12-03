@@ -57,6 +57,10 @@ ln tvjojplus1.png tvjojplus1hd.png
 ln tvlux.png tvluxhd.png
 ln wautv.png wauhd.png
 
+#DVBT
+ln familybarrandov.png barrandovfamily.png
+ln rebel2.png rebel2slusnejkanal.png
+
 #Czech @ Slovak variations of International
 ln animalplanet.png animalplanetcz.png
 ln axn.png axncz.png
