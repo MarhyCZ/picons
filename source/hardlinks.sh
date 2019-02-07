@@ -89,6 +89,49 @@ ln travelchannel.png travelchannelhdcz.png
 ln upnetwork.png upnetworkcz.png
 
 
+#Czech DVB-T2
+ln tvbarrandov.png barrandovtvt2.png
+ln barrandovkrimi.png barrandovkrimit2.png
+ln newsbarrandov.png barrandovnewst2.png
+ln croddur.png croddurt2.png
+ln crodvojka.png crodvojkat2.png
+ln crojazz.png crojazzt2.png
+ln croplus.png croplust2.png
+ln croradiojunior.png croradiojuniort2.png
+ln croradiowave.png croradiowavet2.png
+ln croradiozurnal.png croradiozurnalt2.png
+ln crovltava.png crovltavat2.png
+ln ct1.png ct1hdt2.png
+ln ct2.png ct2hdt2.png
+ln ct24.png ct24hdt2.png
+ln ctd_ctart.png ctdarthdt2.png
+ln ctsport.png ctsporthdt2.png
+ln jojfamily.png jojfamilyhdt2.png
+ln kinosvet.png kinosvett2.png
+ln kinobarrandov.png kinobarrandovt2.png
+ln novacinema.png novacinemat2.png
+ln nova.png novat2.png
+ln noetv.png noetvt2.png
+ln nova2.png nova2t2.png
+ln novaaction.png novaactiont2.png
+ln novagold.png novagoldt2.png
+ln ockostar.png ockostart2.png
+ln ocko.png ockot2.png
+ln primacool.png primacoolt2.png
+ln primacomedycentral.png primacomedycentralhdt2.png
+ln primakrimi.png primakrimit2.png
+ln primalove.png primalovet2.png
+ln primamax.png primamaxt2.png
+ln primazoom.png primazoomt2.png
+ln prima.png primat2.png
+#ln proglas.png proglast2.png
+ln seznamcz.png seznamcztvt2.png
+ln slagr2.png slagr2t2.png
+ln slagrtv.png slagrtvt2.png
+ln rebel.png tvrebelt2.png
+ln relax.png tvrelaxt2.png
+#ln v1hdt2.png
+
 #International channels
 ln amc.png amchd.png
 ln arenasport1.png arenasport.png
