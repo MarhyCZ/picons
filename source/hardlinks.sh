@@ -129,7 +129,7 @@ ln primalove.png primalovet2.png
 ln primamax.png primamaxt2.png
 ln primazoom.png primazoomt2.png
 ln prima.png primat2.png
-#ln proglas.png proglast2.png
+ln proglas.png proglast2.png
 ln seznamcz.png seznamcztvt2.png
 ln slagr2.png slagr2t2.png
 ln slagrtv.png slagrtvt2.png
