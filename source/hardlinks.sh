@@ -55,6 +55,7 @@ ln tvbarrandov.png tvbarrandovhd.png
 ln tvjoj.png tvjojhd.png
 ln tvjojplus1.png tvjojplus1hd.png
 ln tvlux.png tvluxhd.png
+ln v1.png v1hdt2.png
 ln wautv.png wauhd.png
 
 #DVBT
