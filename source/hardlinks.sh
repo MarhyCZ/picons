@@ -7,14 +7,10 @@ ln ceskoslovensko.png ceskoslovenskohd.png
 ln csfilm_csmini.png csfilmcsmini.png
 ln ct1.png ct1hd.png
 ln ct2.png ct2hd.png
+ln ct1.png ct1smhd.png
+ln ct1.png ct1jmhd.png
 ln ct24.png ct24hd.png
 ln ctd_ctart.png ctdarthd.png
-
-ln ct1.png ct1hdt2.png
-ln ct2.png ct2hdt2.png
-ln ct24.png ct24hdt2.png
-ln ctd_ctart.png ctdarthdt2.png
-ln ctsport.png ctsporthdt2.png
 
 ln ctd_ctart.png ctdart.png
 ln ctsport.png ctsporthd.png
@@ -59,6 +55,8 @@ ln v1.png v1hdt2.png
 ln wautv.png wauhd.png
 
 #DVBT
+ln ct1.png ct1sm.png
+ln ct1.png ct1jm.png
 ln familybarrandov.png barrandovfamily.png
 ln rebel2.png rebel2slusnejkanal.png
 
@@ -91,6 +89,12 @@ ln upnetwork.png upnetworkcz.png
 
 
 #Czech DVB-T2
+ln ct1.png ct1hdt2.png
+ln ct2.png ct2hdt2.png
+ln ct24.png ct24hdt2.png
+ln ctd_ctart.png ctdarthdt2.png
+ln ctsport.png ctsporthdt2.png
+
 ln tvbarrandov.png barrandovtvt2.png
 ln barrandovkrimi.png barrandovkrimit2.png
 ln newsbarrandov.png barrandovnewst2.png
