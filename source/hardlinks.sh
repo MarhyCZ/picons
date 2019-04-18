@@ -87,6 +87,11 @@ ln theqyou.png theqyoucz.png
 ln travelchannel.png travelchannelhdcz.png
 ln upnetwork.png upnetworkcz.png
 
+#Czech O2 TV
+ln seznamcz.png televizeseznam.png
+ln barrandovkrimi.png krimibarrandov.png
+ln discoveryshowcasehd.png discoveryhdshowcase.png
+ln noetv.png tvnoe.png
 
 #Czech DVB-T2
 ln ct1.png ct1hdt2.png
