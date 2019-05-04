@@ -4,6 +4,7 @@
 ln 213sport.png 213hd.png
 ln barrandovplus.png barrandovplushd.png
 ln ceskoslovensko.png ceskoslovenskohd.png
+ln be2can.png be2canhd.png
 ln csfilm_csmini.png csfilmcsmini.png
 ln ct1.png ct1hd.png
 ln ct2.png ct2hd.png
