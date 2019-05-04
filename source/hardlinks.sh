@@ -47,6 +47,7 @@ ln stv1.png stv1hd.png
 ln stv2.png stv2hd.png
 ln ta3.png ta3hd.png
 ln tv8.png tv8hd.png
+ln noetv.png tvnoehd.png
 ln tvbarrandov.png tvbarrandovhd.png
 ln tvjoj.png tvjojhd.png
 ln tvjojplus1.png tvjojplus1hd.png
