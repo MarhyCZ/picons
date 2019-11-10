@@ -88,12 +88,25 @@ ln stingrayiconcerts.png stingrayiconcertscz.png
 ln theqyou.png theqyoucz.png
 ln travelchannel.png travelchannelhdcz.png
 ln upnetwork.png upnetworkcz.png
+ln tvslovacko.png tvs.png
 
-#Czech O2 TV
+#Czech O2 TV a Digi TV
 ln seznamcz.png televizeseznam.png
 ln barrandovkrimi.png krimibarrandov.png
 ln discoveryshowcasehd.png discoveryhdshowcase.png
 ln noetv.png tvnoe.png
+ln premiersport.png premiersporthd.png
+ln o2tvfotbal.png o2tvfotbalhd.png
+ln o2tvtenis.png o2tvtenishd.png
+ln o2tvsport.png o2tvsporthd.png
+ln o2tvsport.png o2tvsport1hd.png
+ln o2tvsport.png o2tvsport2hd.png
+ln o2tvsport.png o2tvsport3hd.png
+ln o2tvsport.png o2tvsport4hd.png
+ln o2tvsport.png o2tvsport5hd.png
+ln o2tvsport.png o2tvsport6hd.png
+ln o2tvsport.png o2tvsport7hd.png
+ln o2tvsport.png o2tvsport8hd.png
 
 #Czech DVB-T2
 ln ct1.png ct1hdt2.png
@@ -101,6 +114,7 @@ ln ct2.png ct2hdt2.png
 ln ct24.png ct24hdt2.png
 ln ctd_ctart.png ctdarthdt2.png
 ln ctsport.png ctsporthdt2.png
+ln tvslovacko tvst2.png
 
 ln tvbarrandov.png barrandovtvt2.png
 ln barrandovkrimi.png barrandovkrimit2.png
