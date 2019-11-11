@@ -107,6 +107,7 @@ ln o2tvsport.png o2tvsport5hd.png
 ln o2tvsport.png o2tvsport6hd.png
 ln o2tvsport.png o2tvsport7hd.png
 ln o2tvsport.png o2tvsport8hd.png
+ln stv1.png jednotka.png
 
 #Czech DVB-T2
 ln ct1.png ct1hdt2.png
