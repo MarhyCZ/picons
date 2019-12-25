@@ -5,7 +5,6 @@ ln 213sport.png 213hd.png
 ln barrandovplus.png barrandovplushd.png
 ln ceskoslovensko.png ceskoslovenskohd.png
 ln be2can.png be2canhd.png
-ln csfilm_csmini.png csfilmcsmini.png
 ln ct1.png ct1hd.png
 ln ct2.png ct2hd.png
 ln ct1.png ct1smhd.png
@@ -134,7 +133,6 @@ ln ct24.png ct24hdt2.png
 ln ctd_ctart.png ctdarthdt2.png
 ln ctsport.png ctsporthdt2.png
 ln jojfamily.png jojfamilyhdt2.png
-ln kinosvet.png kinosvett2.png
 ln kinobarrandov.png kinobarrandovt2.png
 ln novacinema.png novacinemat2.png
 ln nova.png novat2.png
