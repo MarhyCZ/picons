@@ -153,9 +153,19 @@ ln proglas.png proglast2.png
 ln seznamcz.png seznamcztvt2.png
 ln slagr2.png slagr2t2.png
 ln slagrtv.png slagrtvt2.png
-ln rebel.png tvrebelt2.png
-ln relax.png tvrelaxt2.png
-#ln v1hdt2.png
+ln retromusictv.png retromusictvt2.png
+ln seznamcztvt2.png seznamcztvhdt2.png
+ln relax.png relaxt2.png
+ln rebel.png rebelt2.png
+ln rebel2slusnejkanal.png rebel2slusnejkanalt2.png
+ln jojfamily.png jojfamilyt2.png
+ln barrandovnewst2.png barrandovnews.png
+ln ct1smhd.png ct1smhdt2.png
+ln primaplus1.png primaplus1t2.png
+ln csmystery.png csmysteryt2.png
+ln ct1jmhd.png ct1jmhdt2.png
+
+
 
 #International channels
 ln amc.png amchd.png
