@@ -55,6 +55,36 @@ ln tvlux.png tvluxhd.png
 ln v1.png v1hdt2.png
 ln wautv.png wauhd.png
 
+#FreeSat
+ln stv1.png jednotkahd.png
+ln stv2.png dvojkahd.png
+ln jojfamily.png jojhd.png
+ln discovery.png discoverychannelhd.png
+ln ngc.png ngchd.png
+ln animalplanet.png animalplanethd.png
+ln natgeowild.png natgeowildromaniahd.png
+ln travelchannel.png travelchannelhd.png
+ln tvpaprika.png tvpaprikaczsk.png
+ln filmboxpremium.png filmboxpremiumhd.png
+ln filmboxplus.png filmboxplusint.png
+ln filmbox.png filmboxbasic.png
+ln prima.png primatv.png
+ln filmplus.png filmpluscze.png
+ln amc.png amcce.png
+ln nickelodeon.png nickelodeonhungary.png
+# plushd.png
+ln markiza.png tvmarkiza.png
+ln minimax.png minimaxcz.png
+ln doma.png tvdoma.png
+ln nova.png tvnova.png
+# musicchannel.png
+ln mtv.png mtveurope.png
+ln sport2.png sport2cze.png
+ln sport1.png sport1cze.png
+ln arenasport1.png arenasport1hd.png
+ln axn.png axnczech.png
+ln markiza.png markizaint.png
+
 #DVBT
 ln ct1.png ct1sm.png
 ln ct1.png ct1jm.png
