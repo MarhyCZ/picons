@@ -7,6 +7,7 @@ ln ceskoslovensko.png ceskoslovenskohd.png
 ln be2can.png be2canhd.png
 ln ct1.png ct1hd.png
 ln ct2.png ct2hd.png
+ln ct3.png ct3hd.png
 ln ct1.png ct1smhd.png
 ln ct1.png ct1jmhd.png
 ln ct24.png ct24hd.png
@@ -141,6 +142,7 @@ ln stv1.png jednotka.png
 #Czech DVB-T2
 ln ct1.png ct1hdt2.png
 ln ct2.png ct2hdt2.png
+ln ct3.png ct3hdt2.png
 ln ct24.png ct24hdt2.png
 ln ctd_ctart.png ctdarthdt2.png
 ln ctsport.png ctsporthdt2.png
