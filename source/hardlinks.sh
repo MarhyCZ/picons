@@ -34,6 +34,7 @@ ln novacinema.png novacinemahd.png
 ln novasport1.png novasport1hd.png
 ln novasport2.png novasport2hd.png
 ln ocko.png ockotv.png
+ln cnnprimanews.png cnnprimanewshd.png
 ln prima.png primahd.png
 ln primacool.png primacoolhd.png
 ln primalove.png primalovehd.png
