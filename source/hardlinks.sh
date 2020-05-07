@@ -218,6 +218,7 @@ ln eurosport2.png eurosport2hd.png
 ln filmbox.png filmboxhd.png
 ln filmboxextra.png filmboxextrahd.png
 ln filmeurope.png filmeuropehd.png
+ln filmeuropeplus.png filmeuropeplushd.png
 ln fineliving.png finelivinghd.png
 ln france24.png france24enfranais.png
 ln france24.png france24inarabic.png
