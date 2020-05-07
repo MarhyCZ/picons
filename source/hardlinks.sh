@@ -3,8 +3,8 @@
 #Czech & Slovak channels
 ln 213sport.png 213hd.png
 ln barrandovplus.png barrandovplushd.png
-ln ceskoslovensko.png ceskoslovenskohd.png
-ln be2can.png be2canhd.png
+#ln ceskoslovensko.png ceskoslovenskohd.png
+#ln be2can.png be2canhd.png
 ln ct1.png ct1hd.png
 ln ct2.png ct2hd.png
 ln ct3.png ct3hd.png
@@ -214,7 +214,7 @@ ln cinemax2.png cinemax2hd.png
 ln cnn.png cnnint.png
 ln eurosport1.png eurosport1hd.png
 ln eurosport2.png eurosport2hd.png
-ln festivalchannel.png festivalhd.png
+# ln festivalchannel.png festivalhd.png
 ln filmbox.png filmboxhd.png
 ln filmboxextra.png filmboxextrahd.png
 ln filmeurope.png filmeuropehd.png
