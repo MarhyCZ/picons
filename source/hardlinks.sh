@@ -212,6 +212,7 @@ ln bbcworldnews.png bbcworldnewseuropehd.png
 ln cinemax.png cinemaxhd.png
 ln cinemax2.png cinemax2hd.png
 ln cnn.png cnnint.png
+ln cnn.png cnnhd.png
 ln eurosport1.png eurosport1hd.png
 ln eurosport2.png eurosport2hd.png
 # ln festivalchannel.png festivalhd.png
@@ -232,6 +233,8 @@ ln stingrayiconcerts.png iconcerts.png
 ln insighttv.png insighttvhdint.png
 ln nationalgeographic.png ngc.png
 ln nautical.png nauticalhd.png
+ln nasatv.png nasatvhd.png
+ln nasatv.png nasatvuhd.png
 ln spektrum.png spektrumhd.png
 ln sport1.png sport1hd.png
 ln sport2.png sport2hd.png
