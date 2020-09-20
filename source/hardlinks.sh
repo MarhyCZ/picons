@@ -68,7 +68,6 @@ ln natgeowild.png natgeowildromaniahd.png
 ln travelchannel.png travelchannelhd.png
 ln tvpaprika.png tvpaprikaczsk.png
 ln filmboxpremium.png filmboxpremiumhd.png
-ln filmboxplus.png filmboxplusint.png
 ln filmbox.png filmboxbasic.png
 ln prima.png primatv.png
 ln filmplus.png filmpluscze.png
