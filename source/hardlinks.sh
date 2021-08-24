@@ -3,10 +3,11 @@
 #Czech & Slovak channels
 ln 213sport.png 213hd.png
 ln barrandovplus.png barrandovplushd.png
-ln ceskoslovensko.png ceskoslovenskohd.png
-ln be2can.png be2canhd.png
+#ln ceskoslovensko.png ceskoslovenskohd.png
+#ln be2can.png be2canhd.png
 ln ct1.png ct1hd.png
 ln ct2.png ct2hd.png
+ln ct3.png ct3hd.png
 ln ct1.png ct1smhd.png
 ln ct1.png ct1jmhd.png
 ln ct24.png ct24hd.png
@@ -33,6 +34,7 @@ ln novacinema.png novacinemahd.png
 ln novasport1.png novasport1hd.png
 ln novasport2.png novasport2hd.png
 ln ocko.png ockotv.png
+ln cnnprimanews.png cnnprimanewshd.png
 ln prima.png primahd.png
 ln primacool.png primacoolhd.png
 ln primalove.png primalovehd.png
@@ -66,10 +68,10 @@ ln natgeowild.png natgeowildromaniahd.png
 ln travelchannel.png travelchannelhd.png
 ln tvpaprika.png tvpaprikaczsk.png
 ln filmboxpremium.png filmboxpremiumhd.png
-ln filmboxplus.png filmboxplusint.png
 ln filmbox.png filmboxbasic.png
 ln prima.png primatv.png
 ln filmplus.png filmpluscze.png
+ln filmplus.png filmplushd.png
 ln amc.png amcce.png
 ln nickelodeon.png nickelodeonhungary.png
 # plushd.png
@@ -109,9 +111,11 @@ ln jimjam.png jimjamcz.png
 ln mtv.png mtveuropecz.png
 ln nationalgeographic.png natgeohdcz.png
 ln natgeowild.png natgeowildhdcz.png
+ln natgeowild.png nationalgeographicwildhdcz.png
 ln nickelodeon.png nickelodeoncz.png
 ln nickjr.png nickjrcz.png
 ln nickjr.png nickjrczech.png
+ln cartoonnetwork.png cartoonnetworkcz.png
 ln outdoorchannel.png outdoorchannelhdcz.png
 ln stingrayiconcerts.png stingrayiconcertscz.png
 ln theqyou.png theqyoucz.png
@@ -141,6 +145,7 @@ ln stv1.png jednotka.png
 #Czech DVB-T2
 ln ct1.png ct1hdt2.png
 ln ct2.png ct2hdt2.png
+ln ct3.png ct3hdt2.png
 ln ct24.png ct24hdt2.png
 ln ctd_ctart.png ctdarthdt2.png
 ln ctsport.png ctsporthdt2.png
@@ -164,6 +169,7 @@ ln ctd_ctart.png ctdarthdt2.png
 ln ctsport.png ctsporthdt2.png
 ln jojfamily.png jojfamilyhdt2.png
 ln kinobarrandov.png kinobarrandovt2.png
+ln barrandovkrimi.png barrandovkrimihd.png
 ln novacinema.png novacinemat2.png
 ln nova.png novat2.png
 ln noetv.png noetvt2.png
@@ -205,11 +211,14 @@ ln bbcworldnews.png bbcworldnewseuropehd.png
 ln cinemax.png cinemaxhd.png
 ln cinemax2.png cinemax2hd.png
 ln cnn.png cnnint.png
+ln cnn.png cnnhd.png
 ln eurosport1.png eurosport1hd.png
 ln eurosport2.png eurosport2hd.png
-ln festivalchannel.png festivalhd.png
+# ln festivalchannel.png festivalhd.png
+ln filmbox.png filmboxhd.png
 ln filmboxextra.png filmboxextrahd.png
 ln filmeurope.png filmeuropehd.png
+ln filmeuropeplus.png filmeuropeplushd.png
 ln fineliving.png finelivinghd.png
 ln france24.png france24enfranais.png
 ln france24.png france24inarabic.png
@@ -223,6 +232,8 @@ ln stingrayiconcerts.png iconcerts.png
 ln insighttv.png insighttvhdint.png
 ln nationalgeographic.png ngc.png
 ln nautical.png nauticalhd.png
+ln nasatv.png nasatvhd.png
+ln nasatv.png nasatvuhd.png
 ln spektrum.png spektrumhd.png
 ln sport1.png sport1hd.png
 ln sport2.png sport2hd.png
@@ -231,6 +242,7 @@ ln classica.png unitelclassicahd.png
 ln viasatexplore.png viasatexplorehd.png
 ln viasatexplore.png viasatexplorespice.png
 ln viasathistory.png viasathistoryhd.png
+ln viasatnature.png viasatnaturehd.png
 ln epicdrama.png epicdramahd.png
 
 ln skynews.png skynewsintl.png
