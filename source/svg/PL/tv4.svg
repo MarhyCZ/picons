@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.46 283.46"><defs><style>.cls-1{fill:#1c3360;}.cls-2{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Cyfrowy_Polsat" data-name="Cyfrowy Polsat"><g id="tv4"><rect class="cls-1" width="283.46" height="283.46"/><g id="logo"><path class="cls-2" d="M79.87,42.52A27.51,27.51,0,0,0,52.43,70l-.06,171h125.9V212.16H74.37L203.06,42.52Z"/><path class="cls-2" d="M178.28,116.73,127.1,186.24h51.18Z"/><path class="cls-2" d="M231,212.16v1.27a27.53,27.53,0,0,1-27.42,27.51V212.16Z"/><path class="cls-2" d="M203.6,42.52h27.5L231,186.24H203.6Z"/></g></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="363"
+   height="403"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-244.41049,-157.14172)">
+    <path
+       id="path2819"
+       d="M 448.09089,157.14302 L 448.09089,292.06242 L 289.02489,501.69062 L 448.09089,501.69062 L 448.09089,560.13932 L 244.41049,560.13932 L 244.48809,504.27872 L 244.48809,212.88642 C 244.48809,182.19092 269.53939,157.14302 300.27199,157.14302 L 448.09089,157.14302 z M 448.09089,378.50052 L 396.17299,449.02682 L 448.09089,449.02682 L 448.09089,378.50052 z M 607.27429,501.69062 L 607.27429,504.27872 C 607.27429,534.98202 582.25829,560.13932 551.55069,560.13932 L 551.55069,501.69062 L 607.27429,501.69062 z M 551.55069,157.14302 L 607.41049,157.14302 L 607.27429,212.88642 L 607.27429,449.02682 L 551.55069,449.02682 L 551.55069,157.14302 z M 448.09089,292.06242 L 448.09089,157.14302 L 550.42699,157.14302 L 448.09089,292.06242 z M 448.09089,501.69062 L 500.14249,501.69062 L 500.14249,560.14022 L 448.09089,560.14022 L 448.09089,501.69062 z M 500.14249,307.84912 L 448.09089,378.50052 L 448.09089,449.02682 L 500.14249,449.02682 L 500.14249,307.84912 z "
+       style="fill:#032c56;fill-rule:nonzero;stroke:none" />
+  </g>
+</svg>
