@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1002.1521"
+   height="741.93024"
+   viewBox="0 0 265.15274 196.30239"
+   version="1.1"
+   id="svg260"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="TVN7 2021 (Turquise-Purple).svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview262"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.32756265"
+     inkscape:cx="404.50277"
+     inkscape:cy="331.23434"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs257">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient11483">
+      <stop
+         style="stop-color:#55ff99;stop-opacity:1"
+         offset="0"
+         id="stop11479" />
+      <stop
+         style="stop-color:#ab00ff;stop-opacity:1"
+         offset="1"
+         id="stop11481" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11483"
+       id="linearGradient11485"
+       x1="280.68741"
+       y1="310.16968"
+       x2="376.40381"
+       y2="176.89365"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.108204,0,0,1.108204,-244.04531,-104.50185)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.7457809,-67.095673)">
+    <path
+       id="ellipse10106"
+       style="fill:url(#linearGradient11485);stroke-width:0"
+       d="M 203.52135,165.24686 A 98.887787,98.151184 0 0 1 104.63357,263.39804 98.887787,98.151184 0 0 1 5.7457809,165.24686 98.887787,98.151184 0 0 1 104.63357,67.095673 98.887787,98.151184 0 0 1 203.52135,165.24686 Z" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.293214px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 69.501836,120.85788 -1.1e-5,-5.4827 h 67.526625 v 4.7554 L 87.908007,217.9239 h -5.650521 l 48.784784,-97.06602 z"
+       id="path10108"
+       sodipodi:nodetypes="ccccccccc" />
+    <g
+       aria-label="TVN"
+       id="text15836"
+       style="font-weight:800;font-size:35.5753px;line-height:1.25;font-family:Axiforma;-inkscape-font-specification:'Axiforma weight=950';fill:#9800e4;stroke-width:0.234045">
+      <path
+         d="M 204.8353,117.19725 V 96.563577 h -7.43524 v -5.656472 h 20.7404 v 5.656472 h -7.39966 v 20.633673 z"
+         id="path3120" />
+      <path
+         d="m 231.97919,108.37458 6.40355,-17.467475 h 6.72373 l -10.63701,26.290145 h -4.98055 L 218.7096,90.907105 h 6.79488 z"
+         id="path3122" />
+      <path
+         d="M 265.13533,106.27563 V 90.907105 h 5.7632 v 26.290145 h -4.23346 l -12.84268,-15.22623 v 15.22623 h -5.79878 V 90.907105 h 3.98444 z"
+         id="path3124" />
+    </g>
+  </g>
+</svg>
