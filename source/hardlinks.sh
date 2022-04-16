@@ -186,6 +186,8 @@ ln primakrimi.png primakrimit2.png
 ln primalove.png primalovet2.png
 ln primamax.png primamaxt2.png
 ln primazoom.png primazoomt2.png
+ln primastar.png primastart2.png
+ln primashow.png primashowt2.png
 ln prima.png primat2.png
 ln proglas.png proglast2.png
 ln seznamcz.png seznamcztvt2.png
