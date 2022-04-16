@@ -36,6 +36,8 @@ ln novaaction.png novaactionhd.png
 ln novacinema.png novacinemahd.png
 ln novasport1.png novasport1hd.png
 ln novasport2.png novasport2hd.png
+ln novasport3.png novasport3hd.png
+ln novasport4.png novasport4hd.png
 ln ocko.png ockotv.png
 ln cnnprimanews.png cnnprimanewshd.png
 ln prima.png primahd.png
