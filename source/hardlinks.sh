@@ -234,6 +234,7 @@ ln hbo2.png hbo2hd.png
 ln hbo3.png hbo3hd.png
 ln history.png historyhd.png
 ln lovenature.png lovenaturehd.png
+ln travelxp.png travelxphd.png
 ln stingrayiconcerts.png iconcerts.png
 ln insighttv.png insighttvhdint.png
 ln nationalgeographic.png ngc.png
