@@ -15,6 +15,8 @@ ln ctd_ctart.png ctdarthd.png
 
 ln ctd_ctart.png ctdart.png
 ln ctsport.png ctsporthd.png
+ln csfilm.png csfilmhd.png
+ln cshistory.png cshistoryhd.png
 ln dajto.png dajtohd.png
 ln doma.png domahd.png
 ln jojcinema.png jojcinemahd.png
