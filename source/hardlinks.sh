@@ -113,6 +113,7 @@ ln foodnetwork.png foodnetworkhdcz.png
 ln fineliving.png finelivinghdcz.png
 ln hustlertv.png hustlertvcz.png
 ln jimjam.png jimjamcz.png
+ln lovenature.png lovenaturehdcz.png
 ln mtv.png mtveuropecz.png
 ln nationalgeographic.png natgeohdcz.png
 ln natgeowild.png natgeowildhdcz.png
