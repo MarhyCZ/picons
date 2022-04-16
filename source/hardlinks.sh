@@ -28,7 +28,7 @@ ln mnam.png mnamtv.png
 ln mnau.png mnautv.png
 ln nova.png novahd.png
 ln novaplus1.png novaplus1hd.png
-ln nova2.png nova2hd.png
+ln novafun.png novafunhd.png
 ln novaaction.png novaactionhd.png
 ln novacinema.png novacinemahd.png
 ln novasport1.png novasport1hd.png
@@ -173,7 +173,7 @@ ln barrandovkrimi.png barrandovkrimihd.png
 ln novacinema.png novacinemat2.png
 ln nova.png novat2.png
 ln noetv.png noetvt2.png
-ln nova2.png nova2t2.png
+ln novafun.png novafunt2.png
 ln novaaction.png novaactiont2.png
 ln novagold.png novagoldt2.png
 ln ockostar.png ockostart2.png
