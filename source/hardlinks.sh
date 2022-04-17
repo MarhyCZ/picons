@@ -276,6 +276,7 @@ ln zdfneo.png zdfneohd.png
 
 ln rtl.png rtltelevision.png
 ln rtl.png rtlhd.png
+ln rtlzwei.png rtlzweihd.png
 ln nitro.png rtlnitrohd.png
 ln superrtl.png superrtlhd.png
 ln rtlcrime.png rtlcrimehd.png
