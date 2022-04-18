@@ -187,7 +187,6 @@ ln novagold.png novagoldt2.png
 ln ockostar.png ockostart2.png
 ln ocko.png ockot2.png
 ln primacool.png primacoolt2.png
-ln primacomedycentral.png primacomedycentralhdt2.png
 ln primakrimi.png primakrimit2.png
 ln primalove.png primalovet2.png
 ln primamax.png primamaxt2.png
