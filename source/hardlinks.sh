@@ -174,6 +174,45 @@ ln primaplus1.png primaplus1t2.png
 ln csmystery.png csmysteryt2.png
 ln ct1jmhd.png ct1jmhdt2.png
 
+#Vodafone CZ
+ln 1plus1.png 1plus1tv.png
+ln 360tunebox.png 360tuneboxhd.png
+ln axn.png axnhd.png
+ln tvbarrandov.png barrandovtv.png
+ln tvbarrandov.png barrandovtvhd.png
+ln brazzerstv.png brazzers.png
+ln cartoonnetwork.png cartoonnetworkhd.png
+ln csfilm.png csfilmcshorrorhd.png
+ln csmystery.png csmysteryhd.png
+ln ct1.png ct1jzchd.png
+ln ct1.png ct1svchd.png
+ln ctd_ctart.png ctdctart.png
+ln ctd_ctart.png ctdhdctarthd.png
+ln discovery.png discoveryhd.png
+ln docubox.png docuboxhd.png
+ln ducktv.png ducktvhd.png
+ln fastandfunbox.png fastandfunhd.png
+ln fightbox.png fightboxhd.png
+ln foodnetwork.png foodnetworkhd.png
+ln france24.png france24hdeng.png
+ln golfchannel.png golfchannelhd.png
+ln leotv.png leotvhd.png
+ln mnam.png mnamtvhd.png
+ln nationalgeographic.png natgeohd.png
+ln natgeowild.png natgeowildhd.png
+ln ockoblack.png ockoblackhd.png
+ln ockoexpres.png ockoexpreshd.png
+ln ocko.png ockohd.png
+ln ockostar.png ockostarhd.png
+ln primakrimi.png primakrimihd.png
+ln primashow.png primashowhd.png
+ln relax.png relaxhd.png
+ln seznamcz.png seznamcztvhd.png
+ln spektrumhome.png spektrumhomehd.png
+ln tlc.png tlchd.png
+ln tvpaprika.png tvpaprikahd.png
+ln zak.png zaktv.png
+
 
 
 #International channels
