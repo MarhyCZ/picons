@@ -105,11 +105,14 @@ ln nationalgeographic.png natgeohdcz.png
 ln natgeowild.png natgeowildhdcz.png
 ln natgeowild.png nationalgeographicwildhdcz.png
 ln nickelodeon.png nickelodeoncz.png
+ln nickelodeon.png nickelodeon_pluto_ua.png
 ln nickjr.png nickjrcz.png
 ln nickjr.png nickjrczech.png
+ln nicktoons.png nicktoonscz.png
 ln cartoonnetwork.png cartoonnetworkcz.png
 ln outdoorchannel.png outdoorchannelhdcz.png
 ln stingrayiconcerts.png stingrayiconcertscz.png
+ln stingrayiconcerts.png iconcert.png
 ln travelchannel.png travelchannelhdcz.png
 ln tvslovacko.png tvs.png
 
@@ -129,6 +132,7 @@ ln ctsport.png ctsporthdt2.png
 ln tvslovacko tvst2.png
 
 ln tvbarrandov.png barrandovtvt2.png
+ln tvbarrandov.png barrandov.png
 ln barrandovkrimi.png barrandovkrimit2.png
 ln croddur.png croddurt2.png
 ln crodvojka.png crodvojkat2.png
@@ -136,6 +140,7 @@ ln crojazz.png crojazzt2.png
 ln croplus.png croplust2.png
 ln croradiojunior.png croradiojuniort2.png
 ln croradiowave.png croradiowavet2.png
+ln croradiowave.png croradiowawe.png
 ln croradiozurnal.png croradiozurnalt2.png
 ln crovltava.png crovltavat2.png
 ln ct1.png ct1hdt2.png
@@ -164,6 +169,7 @@ ln primashow.png primashowt2.png
 ln prima.png primat2.png
 ln proglas.png proglast2.png
 ln seznamcz.png seznamcztvt2.png
+ln seznamcz.png seznamcztv.png
 ln retromusictv.png retromusictvt2.png
 ln seznamcztvt2.png seznamcztvhdt2.png
 ln relax.png relaxt2.png
