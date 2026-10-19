@@ -60,14 +60,19 @@ def audit_single_picon(filepath, expected_size):
     w, h = rgba.size
     bg = rgba.getpixel((0, 0))
 
-    # 2. Bounding box & detekce loga
-    diff_pixels = 0
-    min_x, max_x = w, 0
-    min_y, max_y = h, 0
+    # 2. Bounding box & detekce loga (využití 128x128 náhledu pro bleskový audit v řádu milisekund)
+    thumb = rgba.resize((128, 128), Image.Resampling.BOX)
+    tw, th = thumb.size
+    pix = thumb.load()
+    bg = pix[0, 0]
 
-    for x in range(0, w, 2):  # krok 2 pro rychlost auditu
-        for y in range(0, h, 2):
-            px = rgba.getpixel((x, y))
+    diff_pixels = 0
+    min_x, max_x = tw, 0
+    min_y, max_y = th, 0
+
+    for x in range(tw):
+        for y in range(th):
+            px = pix[x, y]
             dist = max(abs(px[0] - bg[0]), abs(px[1] - bg[1]), abs(px[2] - bg[2]))
             if dist > 35:
                 diff_pixels += 1
@@ -82,8 +87,8 @@ def audit_single_picon(filepath, expected_size):
 
     box_w = max_x - min_x
     box_h = max_y - min_y
-    box_w_ratio = box_w / w
-    box_h_ratio = box_h / h
+    box_w_ratio = box_w / tw
+    box_h_ratio = box_h / th
 
     # 3. Detekce mikroskopického loga
     if box_w_ratio < 0.30 and box_h_ratio < 0.30:
@@ -93,8 +98,7 @@ def audit_single_picon(filepath, expected_size):
 
     # 4. Detekce plného neprůhledného bloku bez detailů (chyba maskování)
     if box_w_ratio > 0.45 and box_h_ratio > 0.45:
-        # ořízneme logo box a změříme směrodatnou odchylku
-        cropped_box = rgba.crop((min_x, min_y, max_x, max_y)).convert("RGB")
+        cropped_box = thumb.crop((min_x, min_y, max_x, max_y)).convert("RGB")
         stat = ImageStat.Stat(cropped_box)
         mean_std = sum(stat.stddev) / 3.0
         if mean_std < 8.0:
