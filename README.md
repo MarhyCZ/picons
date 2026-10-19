@@ -1,147 +1,155 @@
-<a href="#cz---marhyho-picony--ikony">Přeskočte na CZ popis</a>
+# 🎨 Modern Flat Picons for TV & Radio (CZ/SK & International)
 
-## Introduction to Marhy's Picons
-At home I am using several clients for TV watching (Kodi, Tvheadend clients on iOS, UWP on Windows 10) and most picon packs that are available on the internet are either transparent, which means some of them look fine on dark backgrounds, but are awful on light backgrounds and vice versa. The ones that do have a background look either outdated by my taste (lots of old gradients, unnecessary effects like glass reflections, too much skeuomorphism) or if they have for example a solid color background, some of the picons aren't visible, because their logo has the same primary color.
+[![Picons Quality & CI Pipeline](https://github.com/onhala/picons/actions/workflows/ci.yml/badge.svg)](https://github.com/onhala/picons/actions/workflows/ci.yml)
+[![GitHub Pages](https://img.shields.io/badge/CDN-GitHub%20Pages-blue?logo=github)](https://onhala.github.io/picons/)
+[![Picons Count](https://img.shields.io/badge/picons-1232%20icons-success?logo=visualstudiocode)](https://onhala.github.io/picons/)
+[![Resolution](https://img.shields.io/badge/resolutions-640px%20%7C%201024px-orange)](https://onhala.github.io/picons/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-So I've decided to create my own picon pack, that would look nice in my eyes and on a broad range of end clients. I create every picon manually. Most of them is about applying primary color or gradient of the logo to the background of the picon and making the logo itself white. Achieving modern, sleek look, unique, distinctive backgrounds, but keeping familiar look to the original logos. I am trying to have every picon in vector format for future scaling, I will upload the source files in .ai and .svg after a while.
+Prémiový balíček moderních, plochých televizních a rozhlasových ikon (piconů) navržený pro **Tvheadend**, **Kodi**, **Apple TV (TvhClient)**, **Enigma2** a **IPTV playlisty**. 
 
+Tento repozitář je aktivně udržovaným a rozšířeným forkem původního projektu [MarhyCZ/picons](https://github.com/MarhyCZ/picons) s plným pokrytím moderního českého pozemního vysílání **DVB-T2**, regionálních stanic, rádií a integrovanou **automatizovanou CI/CD validační pipeline**.
 
-The disadvantage against the most other picon packs is, that I am nowhere near close to the amount of channel logos they provide. But if you like it, in the meantime you can use in junction with my picons this excellent repository of picons on https://github.com/picons/picons-source 
-And of course, some might not like, that I am basically altering the logos (by making them white and applying their color to background).
+👉 **[Prohlédnout interaktivní online galerii všech stanic](https://onhala.github.io/picons/)** (podporuje vyhledávání a přepínání tmavého/světlého režimu).
 
-#### TL;DR: " It's modern, flat, rectangular picon pack with colorful backgrounds "
+---
 
-### Small taste
+## 💎 Designový systém Marhyho Piconů
 
-#### Czech TV
-![Thumbnail for Czech TV](http://marhycz.github.io/picons/docs/images/thumbnail-cz.png)
+Většina běžných transparentních piconů selhává v kontrastu – na tmavém skinu zanikají tmavé části loga, na světlém skinu zase bílé. Marhyho styl tento problém řeší:
 
-#### Germany TV
-![Thumbnail for Germany TV](http://marhycz.github.io/picons/docs/images/thumbnail-de.png)
+1. **Čtvercová dlaždice (1:1):** Přesné rozlišení **640×640 px** (pro 1080p panely a Kodi) a **1024×1024 px** (pro 4K panely a Retina displeje).
+2. **Dominantní barva značky:** Pozadí tvoří sytá primární barva stanice (nebo jemný charakteristický přechod).
+3. **Monochromní bílé logo (`#ffffff`):** Vycentrováno s přesnou šířkou cca **65–70 % canvasu**, zaručující 100% čitelnost na jakémkoliv skinu klientské aplikace.
 
-#### International TV
-![Thumbnail for International TV](http://marhycz.github.io/picons/docs/images/thumbnail-international.png)
+---
 
-### Usage in Tvheadend
+## 📡 Přímé URL pro Tvheadend (Dynamic CDN)
 
-This is an example of how to use Marhy's Picons package in Tvheadend
+Díky GitHub Pages není nutné balíček stahovat ani ručně nahrávat na disk. Tvheadend si ikony stahuje a cachuje dynamicky přes Service Name Picons (SNP) schéma:
 
-- Go to Configuration -> General -> Base -> Picon
+* **Standardní rozlišení (640×640 px – doporučeno pro RPi / Apple TV):**
+  ```text
+  https://onhala.github.io/picons/640/%C.png
+  ```
+* **Vysoké rozlišení (1024×1024 px – pro 4K UHD panely):**
+  ```text
+  https://onhala.github.io/picons/1024/%C.png
+  ```
 
-- Channel icon path defines path to the directory, where picons are located. If they are on your local drive, use following syntax: file:// + path to directory /%C.png (%C is variable which tvheadend replaces with his generated picon names)
-  - e.g. file:///home/user/icons/%C.png (3 slashes, the third one is root of filesystem / )
-
-- Set channel icon scheme to "Service name picons" and save changes
-
-- Go to Configuration -> Channel/EPG. List all channels (right corner -> Show All)
-- Press CTRL+A to select all channels and press "Reset icon button" and Save changes. Tvheadend will now generate new picon paths for every channel by our new settings.
-
-- Save changes and you're done!
-
-<img src="http://marhycz.github.io/picons/docs/images/tvheadendconf.png" width="384"><img src="http://marhycz.github.io/picons/docs/images/tvheadendconf2.png" height="378">
-
-<hr>
-
-### Downloads
-
-You can download Marhy's picons pack in 2 versions. Either 640x640px suitable for 1080p TVs or 1024x1024px for 4K TVs and retina displays. I am also preparing source files in vector format, so you can create your own flavours.
- 
-[@640px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/640) (.zip)
-
-[@1024px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/1024) (.zip)
-
-You can browse the picons [here](https://github.com/MarhyCZ/picons/tree/master/1024)
-
-
-#### URL for Tvheadend (Channel icon path):
-
-You don't have to download the picons package! Just point Tvheadend to these URLs and as I'll add more and more picons, your Tvheadend will pick them up!
-
-```markdown
-
-@640px - https://marhycz.github.io/picons/640/%C.png
-@1024px - https://marhycz.github.io/picons/1024/%C.png
-
-(e.g. https://marhycz.github.io/picons/640/ct1.png)
+### Příklad v M3U playlistu:
+```text
+#EXTINF:-1 tvg-logo="https://onhala.github.io/picons/640/ct1hdt2.png", CT 1 HD T2
+#EXTINF:-1 tvg-logo="https://onhala.github.io/picons/640/warnertv.png", Warner TV
 ```
 
-And if you like my picons, you can throw me some coins for a coffee :-)
-<a href="https://paypal.me/marhycz"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" /></a>
-<hr>
+---
 
-## CZ - Marhyho Picony & Ikony
+## ⚙️ Návod k nastavení v TVHeadendu
 
-Pokud se v multimediálním centru zrovna nesleduje obsah, sledují se ikony, typografie, celý skin. Proto jsem se rozhodl vytvořit vlastní balíček piconů (loga televizních stanic) a ikon doplňků z českého repozitáře "[Kodi CZ&SK Doplňky](https://kodi-czsk.github.io/repository)"
+1. V rozhraní Tvheadendu přejděte do **Configuration** ➔ **General** ➔ **Base**.
+2. V sekci **Picon**:
+   * **Channel icon path:** `https://onhala.github.io/picons/640/%C.png`
+   * **Channel icon name scheme:** `Service name picons` (SNP)
+   * Uložte změny tlačítkem **Save**.
+3. Přejděte do **Configuration** ➔ **Channel / EPG** ➔ **Channels**:
+   * Zobrazte všechny kanály (`Show All` vpravo dole).
+   * Označte všechny kanály klávesovou zkratkou `CTRL + A`.
+   * Klikněte na tlačítko **Reset icon** a následně **Save changes**.
+4. Tvheadend automaticky dotáhne loga do své interní paměti cache (`imagecache`), odkud se okamžitě distribuují do Apple TV, Kodi i mobilních klientů.
 
+---
 
-## Picony
+## 📺 Pokrytí stanic (100% stav DVB-T2 v ČR)
 
-Nějakou chvíli jsem si dělal svůj vlastní balíček TV ikon jak do Kodi, tak Tvheadend klientů. Protože polovina klasických ikon není vidět na tmavém skinu a polovina není vidět na světlém skinu. Udělal jsem tedy old school čtvercová loga, jejichž pozadí je dominantní barva loga té televizní stanice a to logo samotné je světlé.
-Pro mě to vypadá hezky jak na výchozím novém Kodi skinu, tak třeba i v TvhClientu na iOS.
+Repozitář obsahuje **všech 65 vysílaných DVB-T2 stanic a rádií**:
 
-Stáhnout si můžete jak soubor .ai, kde jsou téměř veškerá loga vektorová, můžete si je upravit dle své libosti a vyexportovat do jakéhokoliv rozlišení chcete. 
-Anebo tu mám už hotový balíček s rozlišením 640px, což se mi ukázalo jako ideál pro Kodi do většiny skinů
+| Stanice / Rádio | Normalizovaný soubor | Multiplex | Stav loga |
+|---|---|---|:---:|
+| **ČT 1 HD T2** | `ct1hdt2.png` | MUX 21 | ✅ 640 + 1024 |
+| **ČT 2 HD T2** | `ct2hdt2.png` | MUX 21 | ✅ 640 + 1024 |
+| **ČT 24 HD T2** | `ct24hdt2.png` | MUX 21 | ✅ 640 + 1024 |
+| **ČT Sport HD T2** | `ctsporthdt2.png` | MUX 21 | ✅ 640 + 1024 |
+| **ČT :D / Art HD T2** | `ctdarthdt2.png` | MUX 21 | ✅ 640 + 1024 |
+| **Nova** | `nova.png` | MUX 24 | ✅ 640 + 1024 |
+| **Nova Cinema** | `novacinema.png` | MUX 24 | ✅ 640 + 1024 |
+| **Nova Action** | `novaaction.png` | MUX 24 | ✅ 640 + 1024 |
+| **Nova Fun** | `novafun.png` | MUX 24 | ✅ 640 + 1024 |
+| **Nova Lady** | `novalady.png` | MUX 24 | ✅ 640 + 1024 |
+| **Nova Krimi** | `novakrimi.png` | MUX 24 | ✅ 640 + 1024 |
+| **Prima** | `prima.png` | MUX 22 | ✅ 640 + 1024 |
+| **Prima COOL** | `primacool.png` | MUX 22 | ✅ 640 + 1024 |
+| **Prima MAX** | `primamax.png` | MUX 22 | ✅ 640 + 1024 |
+| **Prima KRIMI** | `primakrimi.png` | MUX 22 | ✅ 640 + 1024 |
+| **Prima LOVE** | `primalove.png` | MUX 22 | ✅ 640 + 1024 |
+| **Prima ZOOM** | `primazoom.png` | MUX 22 | ✅ 640 + 1024 |
+| **Prima STAR** | `primastar.png` | MUX 22 | ✅ 640 + 1024 |
+| **Prima SHOW** | `primashow.png` | MUX 22 | ✅ 640 + 1024 |
+| **Prima +1** | `prima1.png` | MUX 22 | ✅ 640 + 1024 |
+| **Prima sport** | `primasport.png` | MUX 24 | ✅ 640 + 1024 |
+| **CNN Prima News** | `cnnprimanews.png` | MUX 22 | ✅ 640 + 1024 |
+| **Warner TV** | `warnertv.png` / `test4.png` | MUX 23 | ✅ 640 + 1024 |
+| **A11** | `a11.png` | MUX 23 | ✅ 640 + 1024 |
+| **Seznam.cz TV** | `seznamcztv.png` | MUX 23 | ✅ 640 + 1024 |
+| **Hit TV** | `hittv.png` / `test5.png` | MUX 24 | ✅ 640 + 1024 |
+| **ABC TV** | `abctv.png` | MUX 24 | ✅ 640 + 1024 |
+| **TV Barrandov** | `tvbarrandov.png` | MUX 23 | ✅ 640 + 1024 |
+| **Kino Barrandov** | `kinobarrandov.png` | MUX 23 | ✅ 640 + 1024 |
+| **Barrandov Krimi** | `barrandovkrimi.png` | MUX 23 | ✅ 640 + 1024 |
+| **Šlágr Originál** | `slageroriginal.png` | MUX 24 | ✅ 640 + 1024 |
+| **Šlágr Muzika** | `slagermuzika.png` | MUX 24 | ✅ 640 + 1024 |
+| **JTV (Jihočeská TV)** | `jtv.png` | MUX 24 | ✅ 640 + 1024 |
+| **JČ1 & JČ2** | `jc1.png`, `jc2.png` | RS 18 | ✅ 640 + 1024 |
+| **Rádio Impuls** | `radioimpuls.png` | MUX 22 | ✅ 640 + 1024 |
+| **Český Impuls** | `ceskyimpuls.png` | MUX 24 | ✅ 640 + 1024 |
+| **ČRo Pohoda** | `cropohodat2.png` | MUX 21 | ✅ 640 + 1024 |
+| **ČRo Radiožurnál Sport**| `crorzsportt2.png` | MUX 21 | ✅ 640 + 1024 |
+| **Radio Čas & Čas Rock** | `radiocas.png`, `radiocasrock.png` | MUX 24 | ✅ 640 + 1024 |
+| **Radio Dechovka** | `radiodechovka.png` | MUX 23 | ✅ 640 + 1024 |
+| **RockZone 105.9** | `rockzone1059.png` | MUX 24 | ✅ 640 + 1024 |
+| **Ukrajinské Rádio** | `ukrajinskeradio.png` | MUX 23 | ✅ 640 + 1024 |
 
-Pro 4K panely mám vyexportovaný balíček v 1024px. Pro uživatele 4K televizoru s 1080p vstupem (např. malinou) je toto zbytečné.
+---
 
-Balíček si můžete stáhnout v příloze do vašeho vlastního serveru, případně hostuji zde na GitHubu identickou kopii.
+## 🛠️ Validační Pipeline a Testování Kvality
 
+Součástí repozitáře je automatizovaný kontrolní skript [`tools/validate_picons.py`](tools/validate_picons.py), který je spouštěn v rámci GitHub Actions při každém pushi i pull requestu:
 
-### Použití v Tvheadend
+1. **Parita rozlišení:** Kontroluje, že každý soubor v `640/` má identický protějšek v `1024/`.
+2. **Přesné rozměry a formát:** Striktně vyžaduje rozměr 640×640 px a 1024×1024 px ve formátu PNG.
+3. **Detekce mikroskopických log:** Bounding box loga musí zabírat minimálně 35 % šířky canvasu (zabraňuje nechtěně zmenšeným ikonám).
+4. **Detekce plných ploch / maskovacích chyb:** Měří vnitřní odchylku bodů loga (`stddev`), aby odhalil chybné masky (neprohledné plné čtverce bez výřezu).
+5. **Konzistence hardlinků:** Validuje integritu a existenci aliasů definovaných v [`source/hardlinks.sh`](source/hardlinks.sh).
+6. **Automatická tvorba galerie:** Po úspěšném testu vygeneruje interaktivní náhledovou galerii [`build/gallery.html`](build/gallery.html) a publikuje ji na GitHub Pages.
 
-Balíček ikon je je připravený pro použití v Tvheadendu a ikony jsou pojmenované podle schéma satelitních kanálů.
-
-- Stačí jít do záložky Configuration -> General -> Base -> Picon
-
-- Channel icon path udává cestu ke složce, ve které se nachází ikony. Pokud se nachází ikony na lokálním disku, je cesta v následujícím formátu: file:// + cesta ke složce /%C.png (za %C se dosadí vygenerovaný název)
-  - např. file:///home/user/icons/%C.png (3 lomítka na začátku, protože třetí je root / )
-
-- Channel icon scheme nastavit na Service name picons a uložte změny
-
-- Jděte do Configuration -> Channel/EPG. Zde si zobrazte všechny kanály (vpravo dole Show All)
-- Stiskem CTRL+A všechny kanály označte a stiskněte Reset icon.
-- Změny uložte a tím se pro každý kanál nově vygeneruje cesta k piconám podle nového nastavení.
-- Hotovo.
-
-<img src="http://marhycz.github.io/picons/docs/images/tvheadendconf.png" width="384"><img src="http://marhycz.github.io/picons/docs/images/tvheadendconf2.png" height="378">
-
-<hr>
-
-### Ke stažení
- 
-[@640px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/640) (.zip)
-
-[@1024px](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MarhyCZ/picons/tree/master/1024) (.zip)
-
-A Složku můžete procházet [zde](https://github.com/MarhyCZ/picons/tree/master/1024)
-
-Vektorový formát - coming soon
-
-#### Link pro Tvheadend (Channel icon path):
-
-```markdown
-
-@640px - https://marhycz.github.io/picons/640/%C.png
-@1024px - https://marhycz.github.io/picons/1024/%C.png
--ikony nemusíte stahovat, takto se načtou z GitHubu
-
-(např. https://marhycz.github.io/picons/640/hbohd.png)
+### Lokální spuštění validace:
+```bash
+python3 tools/validate_picons.py --gallery
 ```
 
-#### Příklad použití v M3U playlistu:
-
-```markdown
-#EXTINF:-1 tvg-logo="https://marhycz.github.io/picons/1080/hbo.png", HBO HD
--případně lze ikony stáhnout a použít lokální cestu
+Automatická oprava rozměrů nebo parity:
+```bash
+python3 tools/validate_picons.py --fix
 ```
 
-A pokud se vám mé ikonky líbí, můžete mi přispět na kafe :-) <a href="https://paypal.me/marhycz"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" /></a>
-<hr>
+---
 
-## Kodi CZ&SK Doplňky
+## 🤝 Přispívání a generování nových stanic
 
-Další hojně používanou částí v našem prostředí jsou skvělé doplňky ze společného českého a slovenského repozitáře "[Kodi CZ&SK Doplňky](https://kodi-czsk.github.io/repository)". Napadlo mě redesignovat ikony všech doplňků najednou, aby měli koherentní design a návrhy poslat na jednotlivé github stránky doplňků.
+Nové picony lze vytvářet poloautomaticky pomocí připraveného skriptu:
+1. Zjistěte oficiální vektorový SVG nebo transparentní PNG podklad stanice.
+2. Zadejte primární barvu pozadí značky.
+3. Spusťte generátor:
+   ```bash
+   python3 generate_missing_picons.py
+   python3 tools/validate_picons.py --gallery
+   ```
+4. Zkontrolujte výstup v `build/gallery.html`, commitněte a vytvořte Pull Request.
 
-Návrhy můžete prohlížet v [této složce](https://github.com/MarhyCZ/picons/tree/master/kodi-czsk-icons/navrhy)
+---
 
-![Náhled návrhů](http://marhycz.github.io/picons/kodi-czsk-icons/czsknahled.png)
+## 📜 Licence & Poděkování
+
+* Původní designový koncept a základní sada ikon: **MarhyCZ** ([MarhyCZ/picons](https://github.com/MarhyCZ/picons)).
+* Rozšíření, DVB-T2 podpora a CI validace: **Ondřej Hála** ([onhala/picons](https://github.com/onhala/picons)).
+* Licence: **MIT License**. Loga televizních a rozhlasových stanic jsou duševním vlastnictvím příslušných vysílatelů.

@@ -92,10 +92,91 @@ warnertv_raw = download_file(
     os.path.join(TMP_DIR, "warnertv_raw.png")
 )
 w_im = Image.open(warnertv_raw).convert("RGBA")
-# extract alpha channel as mask
 _, _, _, w_mask = w_im.split()
 create_picon_from_mask(w_mask, "#002244", "warnertv")
 make_symlink("warnertv", "test4")
+
+# Nova Krimi
+print("--- 2b. Generating Nova Krimi ---")
+novakrimi_raw = download_file(
+    "https://upload.wikimedia.org/wikipedia/commons/7/7b/Logo_Nova_Krimi.png",
+    os.path.join(TMP_DIR, "novakrimi_raw.png")
+)
+raw_nk = Image.open(novakrimi_raw).convert("RGB")
+bg_nk = (128, 54, 38)
+mask_nk = Image.new("L", raw_nk.size, 0)
+for x in range(raw_nk.width):
+    for y in range(raw_nk.height):
+        px = raw_nk.getpixel((x, y))
+        if max(abs(px[0]-bg_nk[0]), abs(px[1]-bg_nk[1]), abs(px[2]-bg_nk[2])) > 35:
+            mask_nk.putpixel((x, y), 255)
+mask_nk = mask_nk.crop(mask_nk.getbbox())
+create_picon_from_mask(mask_nk, "#800020", "novakrimi")
+
+# 12. Český Impuls
+print("--- 12. Generating Český Impuls ---")
+ci_html = """<!DOCTYPE html>
+<html><body style="margin:0;padding:0;overflow:hidden;background:#0b2545;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100vw;height:100vh;">
+<div style="font-family:'Arial Black', Impact, sans-serif;font-size:16vw;font-weight:900;color:#ffffff;line-height:0.9;letter-spacing:-0.5vw;">ČESKÝ</div>
+<div style="font-family:'Arial Black', Impact, sans-serif;font-size:16vw;font-weight:900;color:#f5a623;line-height:0.9;letter-spacing:-0.5vw;margin-top:1.5vh;">IMPULS</div>
+<div style="font-family:'Helvetica Neue', Arial, sans-serif;font-size:6.5vw;font-weight:700;color:#ffffff;letter-spacing:0.8vw;margin-top:2.5vh;">RÁDIO PRO POHODU</div>
+</body></html>"""
+render_html_to_png(ci_html, os.path.join(DIR_640, "ceskyimpuls.png"), 640)
+render_html_to_png(ci_html, os.path.join(DIR_1024, "ceskyimpuls.png"), 1024)
+
+# 13. Radio Čas & Čas Rock
+print("--- 13. Generating Radio Čas & Rock ---")
+cas_svg_path = download_file(
+    "https://upload.wikimedia.org/wikipedia/commons/e/ed/Logo_Radio_%C4%8Cas.svg",
+    os.path.join(TMP_DIR, "radio_cas.svg")
+)
+with open(cas_svg_path, "r", encoding="utf-8") as f:
+    cas_svg = f.read()
+import re
+cas_svg_scalable = re.sub(r'(width|height)="[^"]+"', '', cas_svg)
+
+cas_html = f"""<!DOCTYPE html>
+<html><body style="margin:0;padding:0;overflow:hidden;background:#ffc107;display:flex;align-items:center;justify-content:center;width:100vw;height:100vh;">
+<div style="width:72vw;height:auto;filter:brightness(0) invert(1);">
+{cas_svg_scalable}
+</div>
+</body></html>"""
+render_html_to_png(cas_html, os.path.join(DIR_640, "radiocas.png"), 640)
+render_html_to_png(cas_html, os.path.join(DIR_1024, "radiocas.png"), 1024)
+
+cas_rock_html = f"""<!DOCTYPE html>
+<html><body style="margin:0;padding:0;overflow:hidden;background:#1a1a1a;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100vw;height:100vh;">
+<div style="width:68vw;height:auto;filter:brightness(0) invert(1);">
+{cas_svg_scalable}
+</div>
+<div style="font-family:'Arial Black', Impact, sans-serif;font-size:14vw;font-weight:900;color:#ffffff;letter-spacing:1vw;margin-top:2vh;">ROCK</div>
+</body></html>"""
+render_html_to_png(cas_rock_html, os.path.join(DIR_640, "radiocasrock.png"), 640)
+render_html_to_png(cas_rock_html, os.path.join(DIR_1024, "radiocasrock.png"), 1024)
+
+# 15. Radio Dechovka
+print("--- 15. Generating Radio Dechovka ---")
+dechovka_raw = download_file(
+    "https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_Radia_Dechovka_s_kmito%C4%8Dty.png",
+    os.path.join(TMP_DIR, "dechovka_raw.png")
+)
+raw_dec = Image.open(dechovka_raw).convert("RGBA")
+alpha_dec = raw_dec.split()[3].crop(raw_dec.split()[3].getbbox())
+w_d, h_d = alpha_dec.size
+mask_dec = alpha_dec.crop((0, 0, w_d, int(h_d * 0.68)))
+create_picon_from_mask(mask_dec, "#800020", "radiodechovka")
+
+# 17. Ukrajinske Radio
+print("--- 17. Generating Ukrajinske Radio ---")
+ukr_html = """<!DOCTYPE html>
+<html><body style="margin:0;padding:0;overflow:hidden;background:#0057b7;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100vw;height:100vh;">
+<div style="border:1vw solid #ffffff;border-radius:2.5vw;padding:2vw 5vw;text-align:center;">
+  <div style="font-family:'Helvetica Neue', Arial, sans-serif;font-size:9vw;font-weight:900;color:#ffffff;letter-spacing:0.5vw;">УКРАЇНСЬКЕ</div>
+  <div style="font-family:'Arial Black', Impact, sans-serif;font-size:18vw;font-weight:900;color:#ffffff;line-height:0.9;margin-top:1vh;">РАДІО</div>
+</div>
+</body></html>"""
+render_html_to_png(ukr_html, os.path.join(DIR_640, "ukrajinskeradio.png"), 640)
+render_html_to_png(ukr_html, os.path.join(DIR_1024, "ukrajinskeradio.png"), 1024)
 
 # 3. A11
 print("--- 3. Generating A11 ---")

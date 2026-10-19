@@ -1,0 +1,64 @@
+name: Picons Quality & CI Pipeline
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Quality Assurance & Validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install pillow
+
+      - name: Run Picons QA Validator
+        run: |
+          python tools/validate_picons.py --gallery
+
+      - name: Upload Gallery Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: picons-gallery
+          path: build/gallery.html
+          retention-days: 7
+
+      - name: Prepare Pages Deployment
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        run: |
+          cp build/gallery.html index.html
+          # zajistit, ze 640 a 1024 jsou k dispozici pro GitHub Pages
+          touch .nojekyll
+
+      - name: Upload GitHub Pages artifact
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        id: deployment
+        uses: actions/deploy-pages@v4
