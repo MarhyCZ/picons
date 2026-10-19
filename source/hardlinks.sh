@@ -50,6 +50,17 @@ ln primazoom.png primazoomhd.png
 ln regionalnitelevize.png regionalnitelevizecz.png
 ln seznamcz.png seznamczhd.png
 ln seznamcz.png seznamtv.png
+ln seznamcz.png seznamcztv.png
+ln seznamcz.png seznamcztvt2.png
+ln warnertv.png test4.png
+ln hittv.png test5.png
+ln slagrtv.png slageroriginal.png
+ln slagr2.png slagermuzika.png
+ln cropohodat2.png cropohoda.png
+ln crorzsportt2.png croradiozurnalsport.png
+ln rockzone1059.png rockzone.png
+ln naladtesenadigitalnivysilanicra.png televizepresantenu.png
+ln dbtest1.png dbtest2.png
 ln rtvs24.png rtvs24hd.png
 ln stv1.png stv1hd.png
 ln stv2.png stv2hd.png
