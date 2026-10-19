@@ -45,20 +45,40 @@ jobs:
           path: build/gallery.html
           retention-days: 7
 
-      - name: Prepare Pages Deployment
-        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+  deploy:
+    name: Deploy to GitHub Pages
+    if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
         run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build Gallery & Prepare Pages
+        run: |
+          python tools/validate_picons.py --gallery
           cp build/gallery.html index.html
-          # zajistit, ze 640 a 1024 jsou k dispozici pro GitHub Pages
           touch .nojekyll
 
       - name: Upload GitHub Pages artifact
-        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         id: deployment
         uses: actions/deploy-pages@v4
